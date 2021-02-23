@@ -55,14 +55,15 @@
 
     </dependencies>
 
-   <!--<repositories>
+    <repositories>
         <repository>
-            <id>myMavenRepo.read</id>
-            <url>https://mymavenrepo.com/repo/FN8PIshHk5uALNhkXbhs/</url>
-        </repository>
-    </repositories> -->
+        <id>central</id>
+        <name>GA69LTDRBK2H2-releases</name>
+        <url>http://myartifactory.com/artifactory/lirinmaven</url>
+    </repository>
+    </repositories>
 
-    <distributionManagement>
+   <distributionManagement>
     <repository>
         <id>central</id>
         <name>GA69LTDRBK2H2-releases</name>
