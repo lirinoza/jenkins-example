@@ -54,7 +54,15 @@
         </dependency>
 
     </dependencies>
-
+<build><plugins><plugin>
+                <artifactId>maven-deploy-plugin</artifactId>
+                   <version>3.0.0-M1</version>
+                   <configuration>
+                                <deployAtEnd>true</deployAtEnd>
+                    </configuration>
+                    </plugin>
+                    </plugins>
+                    </build>
 <distributionManagement>
 <snapshotRepository>
         <id>snapshots</id>
